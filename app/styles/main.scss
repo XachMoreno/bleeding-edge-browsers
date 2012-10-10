@@ -5,8 +5,8 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
-.container {
-	margin-top: 30px;
+.sudo-page {
+	margin-top: 00px;
 }
 
 h1, h2, h3, h4, h5 {
@@ -14,10 +14,25 @@ h1, h2, h3, h4, h5 {
 }
 
 h1 {
+	font-size: 52px;
 	font-weight: 300;
+	margin-top: 80px;
 }
 
 h2 {
 	text-align: center;
-	font-weight: 400;
+	font-size: 32px;
+	font-weight: 300;
 }
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+// #chrome {
+// 	background-image: url('../images/chrome-bg.png');
+// 	background-repeat: no-repeat;
+// 	margin-top: 100px;
+// }
