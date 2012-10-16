@@ -31,6 +31,14 @@ img {
 	margin-right: auto;
 }
 
+.navbar .brand {
+	padding-left: 70px;
+}
+
+.navbar .nav > li > a:focus, .navbar .nav > li > a:hover {
+	background-color: #E5E5E5;
+}
+
 // #chrome {
 // 	background-image: url('../images/chrome-bg.png');
 // 	background-repeat: no-repeat;
