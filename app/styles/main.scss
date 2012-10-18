@@ -1,6 +1,12 @@
 @import "compass_twitter_bootstrap";
 @import "compass_twitter_bootstrap_responsive";
 
+::selection {
+	background: black;
+	text-shadow: none;
+	color: white;
+}
+
 body {
 	font-family: 'Open Sans', sans-serif;
 }
@@ -45,11 +51,3 @@ img {
 	margin-left: 0px;
 }
 
-
-
-
-// #chrome {
-// 	background-image: url('../images/chrome-bg.png');
-// 	background-repeat: no-repeat;
-// 	margin-top: 100px;
-// }
