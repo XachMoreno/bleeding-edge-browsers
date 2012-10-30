@@ -27,6 +27,22 @@ h2 {
 	font-weight: 300;
 }
 
+.fancybox-skin h2 {
+	font-weight: 500;
+	text-align: left;
+}
+
+.btn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h4 {
+	font-weight: 500;
+	font-size: 19px;
+}
+
 img {
 	display: block;
 	margin-left: auto;
@@ -50,4 +66,37 @@ img {
 [class*="span"] {
 	margin-left: 0px;
 }
+
+.fancybox-skin {
+	background: #fff !important;
+}
+
+.meta-value {
+	font-weight: 300;
+}
+
+
+
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+
+}
+ 
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+
+}
+ 
+/* Landscape phones and down */
+@media (max-width: 480px) {
+
+}
+
+
 

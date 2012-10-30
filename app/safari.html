@@ -14,6 +14,7 @@
 
         
         <link rel="stylesheet" href="styles/main.css">
+         <link rel="stylesheet" href="components/fancybox/source/jquery.fancybox.css">
         <!-- Google Web Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
         <script src="scripts/vendor/modernizr.min.js"></script>
@@ -38,11 +39,11 @@
                         <!-- hidden at 940px or less -->
                         <div class="nav-collapse">
                             <ul class="nav pull-right">
-                            <li><a href="index.html">Chrome</a></li>
-                            <li><a href="firefox.html">FireFox</a></li>
-                            <li class="active"><a href="safari.html">Safari</a></li>
-                            <li><a href="opera.html">Opera</a></li>
-                            <li><a href="ie.html">IE</a></li>
+                                <li><a href="index.html">Chrome</a></li>
+                                <li><a href="firefox.html">FireFox</a></li>
+                                <li class="active"><a href="safari.html">Safari</a></li>
+                                <li><a href="opera.html">Opera</a></li>
+                                <li><a href="ie.html">IE</a></li>
                             </ul>
                         </div>
 
@@ -64,15 +65,19 @@
                 </div>
 
                 <div class="row-fluid sudo-page">
-                    <div class="span4 offset2">
-                        <h2>Nightly</h2>
-                        <img src="images/safari-nightly-icon-370x190.png" alt="safari nightly"/>
-                    </div>
+                    <a href="safari-nightly.html?iframe" class="fancybox">
+                        <div class="span4 offset2">
+                            <h2>Nightly</h2>
+                            <img src="images/safari-nightly-icon-370x190.png" alt="safari nightly"/>
+                        </div>
+                    </a>
 
-                    <div class="span4">
-                        <h2>Stable</h2>
-                        <img src="images/safari-stable-icon-370x190.png" alt="safari stable"/>
-                    </div>
+                    <a href="safari-stable.html?iframe" class="fancybox">
+                        <div class="span4">
+                            <h2>Stable</h2>
+                            <img src="images/safari-stable-icon-370x190.png" alt="safari stable"/>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
