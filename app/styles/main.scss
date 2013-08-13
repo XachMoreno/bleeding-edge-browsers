@@ -55,6 +55,10 @@ img {
 	margin-right: auto;
 	max-width:100%;
 	height:auto;
+
+	&.browser-logo {
+		max-width: 50%;
+	}
 }
 
 .navbar {
@@ -107,6 +111,10 @@ img {
 	font-weight: 300;
 }
 
+.row-fluid
+.offset4:first-child {
+	margin-left: 31.18803%;
+}
 
 /* Large desktop */
 @media (min-width: 1200px) {
