@@ -1,7 +1,0 @@
-////////////////////////////////
-//  Yeoman confirmation
-////////////////////////////////
-
-define([], function() {
-	return 'Hello from Yeoman!';
-});
