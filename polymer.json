@@ -1,11 +1,9 @@
 {
   "entrypoint": "index.html",
-  "shell": "src/my-app.html",
+  "shell": "src/beb-app.html",
   "fragments": [
-    "src/my-view1.html",
-    "src/my-view2.html",
-    "src/my-view3.html",
-    "src/my-view404.html"
+    "src/beb-home.html"
+    "src/beb-404.html"
   ],
   "sourceGlobs": [
     "src/**/*",
